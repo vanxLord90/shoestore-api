@@ -1,5 +1,9 @@
 This is a project that showcases the Rest Api service for employees at a hypothetical Shoe Store. 
 
+To run this project in H2, just type mvn clean package in cmd and then run the ShoestoreApiApplication.java.
+
+To run this project in PostgreSQL go to application.properties in the resources folder and type in your postgres credentials, and then run ShoestoreApiApplication.java.
+
 Here I showcase my ability to write a microservice that can create, read, update, and delete employees.
 
 I showcase my ability to document apis using open-api spring docs on link below
