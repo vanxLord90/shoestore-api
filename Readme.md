@@ -2,12 +2,15 @@ This is a project that showcases the Rest Api service for employees at a hypothe
 
 To run this project in H2, just type mvn clean package in cmd and then run the ShoestoreApiApplication.java.
 
+
 To run this project in PostgreSQL go to application.properties in the resources folder and type in your postgres credentials, and then run ShoestoreApiApplication.java.
 
 Here I showcase my ability to write a microservice that can create, read, update, and delete employees.
 
 I showcase my ability to document apis using open-api spring docs on link below
 http://localhost:8080/swagger-ui/index.html
+
+To test it out, go to the link above and checkout employee-controller, it will give you the api calls to make and what results it will give. You can use the try it out section of the swagger to test the rest-api or use a tool like Postman.
 
 I showcase my ability to containerize the application and run it on a Docker container using Docker Desktop in my Dockerfile.
 
